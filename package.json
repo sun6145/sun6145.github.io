@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.3.0"
   },
   "scripts": {
     "dev": "hexo server",
