@@ -44,7 +44,7 @@ jobs:
       - name: Build
         run: |
           pnpm build
-          touch public/.nojekyll
+          touch .temp/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -52,7 +52,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: .temp
 
   # Deployment job
   deploy:
