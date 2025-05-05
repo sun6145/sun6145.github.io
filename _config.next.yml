@@ -826,9 +826,9 @@ pdf:
   # Default height
   height: 500px
 
-# Mermaid tag
+# Mermaid tag https://theme-next.js.org/docs/tag-plugins/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
   theme:
     light: default
