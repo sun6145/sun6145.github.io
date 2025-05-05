@@ -29,6 +29,7 @@ custom_file_path:
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -58,7 +59,7 @@ darkmode_js:
   saveInCookies: true # default: true
   label: '🌓' # default: ''
   autoMatchOsTheme: true # default: true
-  libUrl: # Set custom library cdn url for Darkmode.js
+  libUrl: https://cdn.bootcdn.net/ajax/libs/Darkmode.js/1.5.7/darkmode-js.min.js # Set custom library cdn url for Darkmode.js
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -434,7 +435,8 @@ font:
   enable: false
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host:
+  host: https://fonts.loli.net # https://fonts.geekzu.org
+
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -883,12 +885,12 @@ vendors:
   # The default CDN provider of third-party plugins.
   # Available values: local | jsdelivr | unpkg | cdnjs | custom
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
-  plugins: jsdelivr
+  plugins: loacl
   # Custom CDN URL
   # For example:
   # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
   # custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}
-  custom_cdn_url:
+  # custom_cdn_url: https://lib.baomitu.com/${cdnjs_name}/${version}/${cdnjs_file}
 
 # Assets
 # Accelerate delivery of static files using a CDN
